@@ -165,6 +165,15 @@ main p {
   color: #272044;
   opacity: 0.7;
 }
+
+.nz-photos {
+  margin: 30px 0;
+}
+
+.nz-photos img {
+  aspect-ratio: 1/1;
+  margin-top: 5px;
+}
 footer {
   color: white;
   background-image: linear-gradient(
@@ -232,5 +241,9 @@ footer a {
 
   .embed {
     aspect-ratio: 16/9;
+  }
+
+  .nz-photos {
+    margin: 0;
   }
 }
